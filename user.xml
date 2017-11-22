@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="user">
+		<field field="user_id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="name" type="varchar(20)" null="NO" key="" default="" extra="" />
+		<field field="email" type="varchar(30)" null="NO" key="" default="" extra="" />
+		<field field="active" type="varchar(1)" null="NO" key="" default="y" extra="" />
+		<field field="remarks" type="varchar(40)" null="NO" key="" default="" extra="" />
+		<field field="phone" type="double(10,0)" null="NO" key="" default="<null>" extra="" />
+		<field field="uname" type="varchar(20)" null="NO" key="" default="" extra="" />
+		<field field="password" type="varchar(20)" null="NO" key="" default="" extra="" />
+
+		<options name="user" engine="InnoDB" version="10" row_format="Dynamic" rows="2" avg_row_length="8192" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-09-30 12:37:35" update_time="<null>" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="user">
+
+	<row>
+		<field name="user_id">2</field>
+		<field name="name">test</field>
+		<field name="email">test</field>
+		<field name="active">y</field>
+		<field name="remarks"></field>
+		<field name="phone">9999999999</field>
+		<field name="uname">test</field>
+		<field name="password">test</field>
+	</row>
+
+	<row>
+		<field name="user_id">101</field>
+		<field name="name">manu</field>
+		<field name="email">manujayarajkm@gmail.com</field>
+		<field name="active">y</field>
+		<field name="remarks">Once upon a time in mumbai</field>
+		<field name="phone">9946440299</field>
+		<field name="uname">manu</field>
+		<field name="password">manu</field>
+	</row>
+
+	<row>
+		<field name="user_id">102</field>
+		<field name="name">Jaison</field>
+		<field name="email">jaisonpj1@gmail.com</field>
+		<field name="active">y</field>
+		<field name="remarks"></field>
+		<field name="phone">9995543139</field>
+		<field name="uname">jmanu</field>
+		<field name="password">manu</field>
+	</row>
+
+	<row>
+		<field name="user_id">103</field>
+		<field name="name">Hari</field>
+		<field name="email">hari@gmail.com</field>
+		<field name="active">y</field>
+		<field name="remarks"></field>
+		<field name="phone">9089786756</field>
+		<field name="uname">hari</field>
+		<field name="password">hari</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

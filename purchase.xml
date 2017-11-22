@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="purchase">
+		<field field="purchase_id" type="int(5)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="user_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="title" type="varchar(40)" null="NO" key="" default="" extra="" />
+		<field field="author" type="varchar(40)" null="NO" key="" default="" extra="" />
+		<field field="count" type="int(2)" null="NO" key="" default="1" extra="" />
+		<field field="price" type="float" null="NO" key="" default="<null>" extra="" />
+		<field field="book_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="purchase_date" type="date" null="NO" key="" default="<null>" extra="" />
+		<field field="bill_id" type="int(5)" null="NO" key="" default="0" extra="" />
+
+		<options name="purchase" engine="InnoDB" version="10" row_format="Dynamic" rows="9" avg_row_length="1820" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-11-02 18:04:13" update_time="2017-11-02 22:16:28" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="purchase">
+
+	<row>
+		<field name="purchase_id">9</field>
+		<field name="user_id">234</field>
+		<field name="title">kjj</field>
+		<field name="author">ff</field>
+		<field name="count">1</field>
+		<field name="price">123</field>
+		<field name="book_id">234</field>
+		<field name="purchase_date">2017-11-01</field>
+		<field name="bill_id">12345</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">17</field>
+		<field name="user_id">102</field>
+		<field name="title">Davinci Code</field>
+		<field name="author">Dan Brown</field>
+		<field name="count">1</field>
+		<field name="price">250</field>
+		<field name="book_id">123</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12346</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">18</field>
+		<field name="user_id">102</field>
+		<field name="title">percy</field>
+		<field name="author">unknown</field>
+		<field name="count">1</field>
+		<field name="price">230</field>
+		<field name="book_id">122</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12346</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">19</field>
+		<field name="user_id">102</field>
+		<field name="title">Davinci Code</field>
+		<field name="author">Dan Brown</field>
+		<field name="count">1</field>
+		<field name="price">250</field>
+		<field name="book_id">123</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12347</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">47</field>
+		<field name="user_id">101</field>
+		<field name="title">Sherlok</field>
+		<field name="author">Doyle</field>
+		<field name="count">2</field>
+		<field name="price">300</field>
+		<field name="book_id">124</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12348</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">54</field>
+		<field name="user_id">101</field>
+		<field name="title">IT</field>
+		<field name="author">Stephen King</field>
+		<field name="count">1</field>
+		<field name="price">300</field>
+		<field name="book_id">125</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12349</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">55</field>
+		<field name="user_id">101</field>
+		<field name="title">Sherlok</field>
+		<field name="author">Doyle</field>
+		<field name="count">1</field>
+		<field name="price">300</field>
+		<field name="book_id">124</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12349</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">56</field>
+		<field name="user_id">101</field>
+		<field name="title">Davinci Code</field>
+		<field name="author">Dan Brown</field>
+		<field name="count">1</field>
+		<field name="price">250</field>
+		<field name="book_id">123</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12350</field>
+	</row>
+
+	<row>
+		<field name="purchase_id">57</field>
+		<field name="user_id">101</field>
+		<field name="title">percy</field>
+		<field name="author">unknown</field>
+		<field name="count">1</field>
+		<field name="price">230</field>
+		<field name="book_id">122</field>
+		<field name="purchase_date">2017-11-02</field>
+		<field name="bill_id">12351</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

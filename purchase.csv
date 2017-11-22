@@ -1,0 +1,10 @@
+purchase_id,user_id,"title","author",count,price,book_id,"purchase_date",bill_id
+9,234,"kjj","ff",1,123,234,"2017-11-01",12345
+17,102,"Davinci Code","Dan Brown",1,250,123,"2017-11-02",12346
+18,102,"percy","unknown",1,230,122,"2017-11-02",12346
+19,102,"Davinci Code","Dan Brown",1,250,123,"2017-11-02",12347
+47,101,"Sherlok","Doyle",2,300,124,"2017-11-02",12348
+54,101,"IT","Stephen King",1,300,125,"2017-11-02",12349
+55,101,"Sherlok","Doyle",1,300,124,"2017-11-02",12349
+56,101,"Davinci Code","Dan Brown",1,250,123,"2017-11-02",12350
+57,101,"percy","unknown",1,230,122,"2017-11-02",12351

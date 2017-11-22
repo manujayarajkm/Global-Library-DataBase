@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="imagestore">
+		<field field="id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="image" type="varchar(30)" null="NO" key="" default="" extra="" />
+
+		<options name="imagestore" engine="InnoDB" version="10" row_format="Dynamic" rows="2" avg_row_length="8192" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-11-01 13:49:02" update_time="<null>" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="imagestore">
+
+	<row>
+		<field name="id">2</field>
+		<field name="image">test1</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="image">test2</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

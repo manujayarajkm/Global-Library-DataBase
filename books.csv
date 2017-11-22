@@ -1,0 +1,8 @@
+book_id,"title","author","genre",price,available_nos,"cover",rating,no_of_ratings,no_of_reviews
+121,"Harry Potter","J K Rowling","Fantasy",245,1,"harrypotter.jpg",3.5,11,5
+122,"percy","unknown","Fantasy",230,1,"percy.jpg",4,24,5
+123,"Davinci Code","Dan Brown","Fantasy",250,1,"davincy.jpg",2,12,5
+124,"Sherlok","Doyle","Fiction",300,1,"sherlok.jpg",5,11,6
+125,"IT","Stephen King","Thriller",300,1,"it.jpg",2,32,7
+126,"Alchemist","Paulo Koylo","Fiction",220,1,"alchemist.jpg",3.75,33,8
+132,"Nalukettu","M T","Fiction",260,1,"nalukettu.jpg",2.5,44,2

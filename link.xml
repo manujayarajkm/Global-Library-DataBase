@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="link">
+		<field field="link_id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="bill_id" type="int(5)" null="YES" key="" default="<null>" extra="" />
+		<field field="user_id" type="int(4)" null="YES" key="" default="<null>" extra="" />
+
+		<options name="link" engine="InnoDB" version="10" row_format="Dynamic" rows="0" avg_row_length="0" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-11-02 16:40:43" update_time="2017-11-02 18:02:38" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="link">
+
+	</table_data>
+
+</database>
+</mysqldump>

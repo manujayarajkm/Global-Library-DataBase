@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="hire">
+		<field field="hire_id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="book_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="user_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="name" type="varchar(20)" null="NO" key="" default="" extra="" />
+		<field field="title" type="varchar(50)" null="NO" key="" default="" extra="" />
+		<field field="took_date" type="date" null="NO" key="" default="<null>" extra="" />
+		<field field="due_date" type="date" null="YES" key="" default="<null>" extra="" />
+
+		<options name="hire" engine="InnoDB" version="10" row_format="Dynamic" rows="1" avg_row_length="16384" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-09-30 12:05:10" update_time="<null>" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="hire">
+
+	<row>
+		<field name="hire_id">13</field>
+		<field name="book_id">126</field>
+		<field name="user_id">101</field>
+		<field name="name"></field>
+		<field name="title"></field>
+		<field name="took_date">2017-10-29</field>
+		<field name="due_date">2017-11-05</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

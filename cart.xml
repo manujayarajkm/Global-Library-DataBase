@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="cart">
+		<field field="cart_id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="user_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="title" type="varchar(40)" null="NO" key="" default="" extra="" />
+		<field field="author" type="varchar(30)" null="NO" key="" default="" extra="" />
+		<field field="count" type="int(2)" null="NO" key="" default="1" extra="" />
+		<field field="price" type="float" null="NO" key="" default="<null>" extra="" />
+		<field field="book_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+
+		<options name="cart" engine="InnoDB" version="10" row_format="Dynamic" rows="0" avg_row_length="0" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-11-01 16:35:57" update_time="2017-11-02 22:16:28" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="cart">
+
+	</table_data>
+
+</database>
+</mysqldump>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="notifications">
+		<field field="notification_id" type="int(3)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="notification_date" type="date" null="NO" key="" default="<null>" extra="" />
+		<field field="matter" type="varchar(50)" null="NO" key="" default="" extra="" />
+		<field field="user_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="book_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="acknowledged" type="char(1)" null="NO" key="" default="n" extra="" />
+		<field field="Ack_Date" type="date" null="YES" key="" default="<null>" extra="" />
+
+		<options name="notifications" engine="InnoDB" version="10" row_format="Dynamic" rows="2" avg_row_length="8192" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-10-28 16:23:29" update_time="<null>" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="notifications">
+
+	<row>
+		<field name="notification_id">124</field>
+		<field name="notification_date">2017-10-28</field>
+		<field name="matter">Davinci Code is due on 2017-10-18</field>
+		<field name="user_id">101</field>
+		<field name="book_id">123</field>
+		<field name="acknowledged">y</field>
+		<field name="Ack_Date">2017-10-28</field>
+	</row>
+
+	<row>
+		<field name="notification_id">125</field>
+		<field name="notification_date">2017-10-28</field>
+		<field name="matter">percy is due on 2017-10-20</field>
+		<field name="user_id">101</field>
+		<field name="book_id">122</field>
+		<field name="acknowledged">y</field>
+		<field name="Ack_Date">2017-10-28</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

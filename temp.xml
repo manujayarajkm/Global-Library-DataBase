@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="temp">
+		<field field="temp_id" type="int(3)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="user_id" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="temp_code" type="int(6)" null="NO" key="" default="<null>" extra="" />
+
+		<options name="temp" engine="InnoDB" version="10" row_format="Dynamic" rows="0" avg_row_length="0" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-10-29 21:30:00" update_time="<null>" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="temp">
+
+	<row>
+		<field name="temp_id">21</field>
+		<field name="user_id">101</field>
+		<field name="temp_code">824170</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>

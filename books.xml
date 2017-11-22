@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.7.18)
+- Database: Library
+- Generation Time Time: 2017-11-02 16:50:04 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="Library">
+
+	<table_structure name="books">
+		<field field="book_id" type="int(4)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="title" type="varchar(50)" null="NO" key="" default="" extra="" />
+		<field field="author" type="varchar(50)" null="NO" key="" default="" extra="" />
+		<field field="genre" type="varchar(30)" null="NO" key="" default="" extra="" />
+		<field field="price" type="float" null="NO" key="" default="<null>" extra="" />
+		<field field="available_nos" type="int(2)" null="NO" key="" default="0" extra="" />
+		<field field="cover" type="varchar(30)" null="NO" key="" default="" extra="" />
+		<field field="rating" type="float" null="NO" key="" default="<null>" extra="" />
+		<field field="no_of_ratings" type="int(4)" null="NO" key="" default="<null>" extra="" />
+		<field field="no_of_reviews" type="int(4)" null="NO" key="" default="<null>" extra="" />
+
+		<options name="books" engine="InnoDB" version="10" row_format="Dynamic" rows="7" avg_row_length="2340" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2017-11-01 17:08:37" update_time="2017-11-02 22:15:54" collation="latin1_swedish_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="books">
+
+	<row>
+		<field name="book_id">121</field>
+		<field name="title">Harry Potter</field>
+		<field name="author">J K Rowling</field>
+		<field name="genre">Fantasy</field>
+		<field name="price">245</field>
+		<field name="available_nos">1</field>
+		<field name="cover">harrypotter.jpg</field>
+		<field name="rating">3.5</field>
+		<field name="no_of_ratings">11</field>
+		<field name="no_of_reviews">5</field>
+	</row>
+
+	<row>
+		<field name="book_id">122</field>
+		<field name="title">percy</field>
+		<field name="author">unknown</field>
+		<field name="genre">Fantasy</field>
+		<field name="price">230</field>
+		<field name="available_nos">1</field>
+		<field name="cover">percy.jpg</field>
+		<field name="rating">4</field>
+		<field name="no_of_ratings">24</field>
+		<field name="no_of_reviews">5</field>
+	</row>
+
+	<row>
+		<field name="book_id">123</field>
+		<field name="title">Davinci Code</field>
+		<field name="author">Dan Brown</field>
+		<field name="genre">Fantasy</field>
+		<field name="price">250</field>
+		<field name="available_nos">1</field>
+		<field name="cover">davincy.jpg</field>
+		<field name="rating">2</field>
+		<field name="no_of_ratings">12</field>
+		<field name="no_of_reviews">5</field>
+	</row>
+
+	<row>
+		<field name="book_id">124</field>
+		<field name="title">Sherlok</field>
+		<field name="author">Doyle</field>
+		<field name="genre">Fiction</field>
+		<field name="price">300</field>
+		<field name="available_nos">1</field>
+		<field name="cover">sherlok.jpg</field>
+		<field name="rating">5</field>
+		<field name="no_of_ratings">11</field>
+		<field name="no_of_reviews">6</field>
+	</row>
+
+	<row>
+		<field name="book_id">125</field>
+		<field name="title">IT</field>
+		<field name="author">Stephen King</field>
+		<field name="genre">Thriller</field>
+		<field name="price">300</field>
+		<field name="available_nos">1</field>
+		<field name="cover">it.jpg</field>
+		<field name="rating">2</field>
+		<field name="no_of_ratings">32</field>
+		<field name="no_of_reviews">7</field>
+	</row>
+
+	<row>
+		<field name="book_id">126</field>
+		<field name="title">Alchemist</field>
+		<field name="author">Paulo Koylo</field>
+		<field name="genre">Fiction</field>
+		<field name="price">220</field>
+		<field name="available_nos">1</field>
+		<field name="cover">alchemist.jpg</field>
+		<field name="rating">3.75</field>
+		<field name="no_of_ratings">33</field>
+		<field name="no_of_reviews">8</field>
+	</row>
+
+	<row>
+		<field name="book_id">132</field>
+		<field name="title">Nalukettu</field>
+		<field name="author">M T</field>
+		<field name="genre">Fiction</field>
+		<field name="price">260</field>
+		<field name="available_nos">1</field>
+		<field name="cover">nalukettu.jpg</field>
+		<field name="rating">2.5</field>
+		<field name="no_of_ratings">44</field>
+		<field name="no_of_reviews">2</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>
